@@ -1,6 +1,8 @@
 /*Background da pagina*/
 .bodyhome{
-    display: block;
+    max-width: 80%;
+    margin: 0 auto;
+  
     background-color: rgb(252, 253, 253);
     background-image: url(imagens/fundo.png);
 
@@ -13,7 +15,8 @@ h1 {
     margin-left: 550px;
 }
 h4{
-    margin-left: 550px; 
+    margin-left: 600px;
+    margin-top: 170px; 
 }
 /* Fim do paragrafo */
 
@@ -36,12 +39,13 @@ div.cabeçalho{
 }
 .logo{
     justify-content: left;
+    
 }
 /* Fim do cabeçalho */
 
 /* Imagem de capa da home */
 .capa{
-    margin: 0px 200px
+    margin: 10px 200px
 }
 
 /* Fim */
