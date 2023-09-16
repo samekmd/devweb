@@ -1,61 +1,68 @@
-/*Background da pagina*/
-.bodyhome{
+body{
     max-width: 80%;
-    margin: 0 auto;
-  
-    background-color: rgb(252, 253, 253);
+    margin:0 auto;
+    border: 0px red solid;
     background-image: url(imagens/fundo.png);
+}
 
-
-/* Fim do background */
-
-}
-/* Parágrafos */
-h1 {
-    margin-left: 550px;
-}
-h4{
-    margin-left: 600px;
-    margin-top: 170px; 
-}
-/* Fim do paragrafo */
-
-/**Cabeçalho**/
-/* Links da página  */
-a {
-    color:black;
-    margin-top: 40px;
-    margin-left: 100px;
-}
-div.links{
-    margin-left: 500px;
-    margin-top: 35px;
-/* Código da div */
-}
-div.cabeçalho{
+nav{
+    width: 100%;
+  
+    border: 0px red solid;
     display: flex;
-    width: 1370px;
-    border: 1px solid white;
+    justify-content:space-between;
+
 }
-.logo{
-    justify-content: left;
+.links{
+    float: right;
+    border: 0px red solid;
+    flex-direction: row;
+    display: flex;
+    justify-content: right;
+    padding: 0 auto;
     
 }
-/* Fim do cabeçalho */
+a{
+    color: black;
+    
+    padding-top: 50px;
+    padding-left: 30px;
+}
 
-/* Imagem de capa da home */
+.capa2{
+    border: 0px red solid;
+    display: block;
+    justify-content: center;
+    padding-left: 50px
+}
 .capa{
-    margin: 10px 200px
+    padding-top: 3px;
+    padding-left: 100px;
+}
+.logo1{
+    width: 20%;
+    border: 0px red solid
+}
+.logo{
+    padding: 20px;
+}
+footer{
+    text-align: center;
 }
 
-/* Fim */
 
-/*Texto da pággina quem somos  */
-ol.motivos{
-    list-style-type:decimal;
-}
 
-/* Fim */
+
+
+
+
+
+
+    
+
+    
+
+
 
 
 
