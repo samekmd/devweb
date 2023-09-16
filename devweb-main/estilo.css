@@ -1,24 +1,37 @@
-/*Background da pagina*/
-.bodyhome{
+body{
     max-width: 80%;
-    margin: 0 auto;
+    margin:0 auto;
+    border: 1px red solid;
+    background-image: url(imagens/fundo.png);
 }
-
-/* Fim do body */
-
-/* Links */
+ul{
+    display: flex;
+    justify-content: right;
+    list-style-type: none;
+    padding-top: -30px;
+   
+    
+}
 a{
-  
-    
-    
-
-
-
-
-
-
-
+    padding-left: 50px;
+    padding-top: 50px;
 }
+.links{
+    max-width: 80%;
+    margin:100px;
+    border:1px green solid;
+}
+.logo{
+    height: auto
+} 
+
+
+
+
+
+
+
+
 
     
 
