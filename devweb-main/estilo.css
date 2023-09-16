@@ -1,29 +1,54 @@
 body{
     max-width: 80%;
     margin:0 auto;
-    border: 1px red solid;
+    border: 0px red solid;
     background-image: url(imagens/fundo.png);
 }
-ul{
+
+nav{
+    width: 100%;
+  
+    border: 0px red solid;
+    display: flex;
+    justify-content:space-between;
+
+}
+.links{
+    float: right;
+    border: 0px red solid;
+    flex-direction: row;
     display: flex;
     justify-content: right;
-    list-style-type: none;
-    padding-top: -30px;
-   
+    padding: 0 auto;
     
 }
 a{
-    padding-left: 50px;
+    color: black;
+    
     padding-top: 50px;
+    padding-left: 30px;
 }
-.links{
-    max-width: 80%;
-    margin:100px;
-    border:1px green solid;
+
+.capa2{
+    border: 0px red solid;
+    display: block;
+    justify-content: center;
+    padding-left: 50px
+}
+.capa{
+    padding-top: 3px;
+    padding-left: 100px;
+}
+.logo1{
+    width: 20%;
+    border: 0px red solid
 }
 .logo{
-    height: auto
-} 
+    padding: 20px;
+}
+footer{
+    text-align: center;
+}
 
 
 
