@@ -15,6 +15,5 @@ def quemsomos():
     return render_template('quemsomos.html')
 
 
-
-
 app.run(debug=True)
+
