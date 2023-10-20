@@ -2,7 +2,11 @@ body{
     max-width: 80%;
     margin:0 auto;
     border: 0px red solid;
-    background-image: url(imagens/fundo.png);
+    background: url(../static/imagens/fundo2.png);
+  
+}
+.body_home{
+    background: url(../static/imagens/fundo.png);
 }
 
 nav{
